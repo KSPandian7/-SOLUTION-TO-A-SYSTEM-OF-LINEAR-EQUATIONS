@@ -13,28 +13,21 @@ Prepare the lists from each linear equations and assign in np.array()
 Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
-
-
-
-
-
-
-
-
 ## Program:
 ```py
 '''Program to find the gcd of a number using function.
 Developed by: kulasekarapandian
 RegisterNumber: 220014010
 '''
+
+
+
+
 import numpy as np
 A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
 B=np.array([-9,4,-1])
 lin=np.linalg.solve(A,B)
 print(lin)
-
-
-
 
 ```
 
