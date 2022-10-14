@@ -20,7 +20,13 @@ A=np.array([[5,-3,-10],[2,2,-3],[-3,-1,5]])
 B=np.array([-9,4,-1])
 lin=np.linalg.solve(A,B)
 print(lin)
+
+
+
+
 ```
+
+
 
 ## Output:
 ![output](/op.png)
