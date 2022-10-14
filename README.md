@@ -2,11 +2,9 @@
 
 ## Aim:
 To write a python program to find a solution to a system of linear equations.
-
 ## Equipment’s required:
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
-
 ## Algorithm:
 ### Step 1: 
 Import the numpy module to use the built-in functions for calculation
@@ -16,7 +14,6 @@ Prepare the lists from each linear equations and assign in np.array()
 Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
-
 ## Program:
 ```
 '''Program to find the gcd of a number using function.
@@ -29,7 +26,6 @@ B=np.array([-9,4,-1])
 lin=np.linalg.solve(A,B)
 print(lin)
 ```
-
 ## Output:
 ![output](/op.png)
 
